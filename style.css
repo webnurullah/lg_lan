@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+body{
+  font-family : 'Josefin Sans', sans-serif;
+}
+
+.btn-section{
+  display: inline-block;
+  border: 3px solid #C70851;
+  border-radius: 5px;
+}
+.btn-section .btn{
+  color: #D3D3D3 !important;
+  border-radius: 0px !important;
+  
+}
+.btn-one{
+  margin-right: -5px;
+}
+.btn-check:focus+.btn, .btn:focus{
+  box-shadow: none !important;
+}
+.change-btn{
+  color: #fff !important;
+  background-color: #C70851 !important ;
+}
+.desktop-view img{
+  width: 80px;
+}
+.desktop-view{
+  margin-left: 20px;
+}
+.single-animated-box{
+  
+}
+p{
+  margin: 0 !important;
+}
+.animation-box-inner{
+  display: inline-block;
+  position: relative;
+}
+.animation{
+  margin-top: -60px;
+  margin-left: 50px;
+  width: 10px;
+  height: 40px;
+  border-radius: 0px 20px 20px 0px;
+  transition: width .5s;
+  background-color: #fff;
+  border: 1px solid #C70851;
+  padding-top: 5px;
+  z-index: -1;
+  position: relative;
+}
+
+.animation-box-inner:hover .animation{
+   width: 180px;
+}
+.animation-box-inner p{
+  opacity: 0;
+  transition: .3s;
+  position: absolute;
+  left: 50px;
+  width: 100px;
+  font-weight: bold;
+  padding-top: 2px;
+}
+.animation-box-inner:hover p{
+  opacity: 1;
+}
+.hide-text{
+  display: none;
+}
+.mobile-view{
+  margin-left: 40px;
+}
+.mobile-view img{
+  width: 70px;
+}
